@@ -47,14 +47,22 @@ def chunk_pdf_by_structure(pdf_path, outline_data):
 # --- Main execution ---
 if __name__ == "__main__":
     # --- 1. CONFIGURATION ---
-    PDF_FILE_PATH = os.path.join('test_files', 'sample.pdf')
-    OUTLINE_FILE_PATH = os.path.join('test_files', 'sample_outline.json')
+    
+    # Get the absolute path of the directory where this script is located (e.g., .../round_1b)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Get the path to the parent directory (e.g., .../mainlogic)
+    parent_dir = os.path.dirname(script_dir)
+    
+    # Build the full paths to the files relative to the script's location
+    PDF_FILE_PATH = os.path.join(script_dir, 'test_files', 'sample.pdf')
+    OUTLINE_FILE_PATH = os.path.join(script_dir, 'test_files', 'sample_outline.json')
+    
     USER_QUERY = "What is the syntax for creating a link in Markdown?"
     
-    # --- THIS IS THE MODIFIED PART ---
-    # Instead of a name, we now point to the local folder where the model is saved.
-    MODEL_PATH = './local_minilm_model' 
-    
+    # Build the full path to the model folder, which is in the parent directory
+    MODEL_PATH = os.path.join(parent_dir, 'local_minilm_model')
+
     # --- 2. LOAD & PARSE OUTLINE ---
     print(f"Loading outline from: {OUTLINE_FILE_PATH}")
     try:
@@ -78,7 +86,6 @@ if __name__ == "__main__":
         
         if document_chunks:
             # --- 4. LOAD MODEL & GET RANKINGS ---
-            # --- AND WE USE THE NEW VARIABLE HERE ---
             print(f"\n🧠 Loading model from local path: '{MODEL_PATH}'...")
             model = SentenceTransformer(MODEL_PATH)
             
@@ -102,6 +109,6 @@ if __name__ == "__main__":
                 print(f"  - Score: {chunk['relevance_score']:.4f} | Page: {chunk['page']} | Heading: {chunk['heading']}")
 
     except FileNotFoundError:
-        print(f"❌ Error: Make sure input files exist.")
+        print(f"❌ Error: Make sure input files exist at the correct paths.")
     except Exception as e:
         print(f"An error occurred: {e}")
