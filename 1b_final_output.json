@@ -1,0 +1,88 @@
+{
+    "metadata": {
+        "persona": "Engineer",
+        "job_to_be_done": "markdown syntax explanation"
+    },
+    "results": [
+        {
+            "source_pdf": "gallery.pdf",
+            "page": 6,
+            "section_title": "Cheat Sheet",
+            "importance_rank": 1,
+            "score": 0.6929544806480408,
+            "refined_text": "Cheat Sheet\nThis cheat sheet provides a quick overview of all the Markdown syntax elements.\nIt can\u2019t cover every edge case! If you need more information about any of these\nelements,referbacktothechaptersonbasicandextendedsyntax...."
+        },
+        {
+            "source_pdf": "markdown.pdf",
+            "page": 6,
+            "section_title": "Cheat Sheet",
+            "importance_rank": 2,
+            "score": 0.6929544806480408,
+            "refined_text": "Cheat Sheet\nThis cheat sheet provides a quick overview of all the Markdown syntax elements.\nIt can\u2019t cover every edge case! If you need more information about any of these\nelements,referbacktothechaptersonbasicandextendedsyntax...."
+        },
+        {
+            "source_pdf": "gallery.pdf",
+            "page": 4,
+            "section_title": "How to Read This Book",
+            "importance_rank": 3,
+            "score": 0.6146001815795898,
+            "refined_text": "How to Read This Book\nThis book is designed to be a comprehensive reference guide to the Markdown\nmarkup language. If you\u2019re new to Markdown, start at the beginning and read to\nthe end. If you\u2019re an expert user, keep this book handy \u2014 you never know when\nyou\u2019llneedtoreferbacktothecheatsheet.\nBeginnerResources\nThefirsttwochaptersofthisbookaredesignedexclusivelyforreaderswhoarenew\ntoMarkdown.GettingStartedprovidesaquickintroductiontoMarkdown.Itshows\nyouhowtogetgoingquicklywiththeDillingeronlineMar..."
+        },
+        {
+            "source_pdf": "markdown.pdf",
+            "page": 4,
+            "section_title": "How to Read This Book",
+            "importance_rank": 4,
+            "score": 0.6146001815795898,
+            "refined_text": "How to Read This Book\nThis book is designed to be a comprehensive reference guide to the Markdown\nmarkup language. If you\u2019re new to Markdown, start at the beginning and read to\nthe end. If you\u2019re an expert user, keep this book handy \u2014 you never know when\nyou\u2019llneedtoreferbacktothecheatsheet.\nBeginnerResources\nThefirsttwochaptersofthisbookaredesignedexclusivelyforreaderswhoarenew\ntoMarkdown.GettingStartedprovidesaquickintroductiontoMarkdown.Itshows\nyouhowtogetgoingquicklywiththeDillingeronlineMar..."
+        },
+        {
+            "source_pdf": "gallery.pdf",
+            "page": 5,
+            "section_title": "Extended Syntax",
+            "importance_rank": 5,
+            "score": 0.6101263165473938,
+            "refined_text": "Extended Syntax\nThe basic syntax outlined in John Gruber\u2019s original design document added many\noftheelementsneededonaday-to-daybasis,butitwasn\u2019tenoughforsomepeople.\nThat\u2019swhereextendedsyntaxcomesin.\nSeveral individuals and organizations took it upon themselves to extend the basic\nsyntax by adding additional elements like tables, code blocks, syntax highlight-\ning, URL auto-linking, and footnotes. These elements can be enabled by using a\nlightweight markup language that builds upon the basic Mark..."
+        },
+        {
+            "source_pdf": "markdown.pdf",
+            "page": 5,
+            "section_title": "Extended Syntax",
+            "importance_rank": 6,
+            "score": 0.6101263165473938,
+            "refined_text": "Extended Syntax\nThe basic syntax outlined in John Gruber\u2019s original design document added many\noftheelementsneededonaday-to-daybasis,butitwasn\u2019tenoughforsomepeople.\nThat\u2019swhereextendedsyntaxcomesin.\nSeveral individuals and organizations took it upon themselves to extend the basic\nsyntax by adding additional elements like tables, code blocks, syntax highlight-\ning, URL auto-linking, and footnotes. These elements can be enabled by using a\nlightweight markup language that builds upon the basic Mark..."
+        },
+        {
+            "source_pdf": "gallery.pdf",
+            "page": 4,
+            "section_title": "Getting Started",
+            "importance_rank": 7,
+            "score": 0.60692298412323,
+            "refined_text": "Getting Started\nMarkdown is a lightweight markup language that you can use to add formatting\nelementstoplaintexttextdocuments.CreatedbyJohnGruberin2004,Markdownis\nnowoneoftheworld\u2019smostpopularmarkuplanguages.\nUsing Markdown is different than using a WYSIWYG editor. In an application like\nMicrosoft Word, you click buttons to format words and phrases, and the changes\nare visible immediately. Markdown isn\u2019t like that. When you create a Markdown-\nformatted file, you add Markdown syntax to the text t..."
+        },
+        {
+            "source_pdf": "markdown.pdf",
+            "page": 4,
+            "section_title": "Getting Started",
+            "importance_rank": 8,
+            "score": 0.60692298412323,
+            "refined_text": "Getting Started\nMarkdown is a lightweight markup language that you can use to add formatting\nelementstoplaintexttextdocuments.CreatedbyJohnGruberin2004,Markdownis\nnowoneoftheworld\u2019smostpopularmarkuplanguages.\nUsing Markdown is different than using a WYSIWYG editor. In an application like\nMicrosoft Word, you click buttons to format words and phrases, and the changes\nare visible immediately. Markdown isn\u2019t like that. When you create a Markdown-\nformatted file, you add Markdown syntax to the text t..."
+        },
+        {
+            "source_pdf": "gallery.pdf",
+            "page": 4,
+            "section_title": "Basic Syntax",
+            "importance_rank": 9,
+            "score": 0.570562481880188,
+            "refined_text": "Basic Syntax\nNearlyallMarkdownapplicationssupportthebasicsyntaxoutlinedinJohnGruber\u2019s\noriginal design document. There are minor variations and discrepancies between\nMarkdownprocessors\u2014thosearenotedinlinewhereverpossible.\nUsing Markdown doesn\u2019t mean that you can\u2019t also use HTML. You can\naddHTMLtagstoanyMarkdownfile.Thisishelpfulifyouprefercertain\nHTML tags to Markdown syntax. For example, some people find that it\u2019s\neasiertouseHTMLtagsforimages...."
+        },
+        {
+            "source_pdf": "markdown.pdf",
+            "page": 4,
+            "section_title": "Basic Syntax",
+            "importance_rank": 10,
+            "score": 0.570562481880188,
+            "refined_text": "Basic Syntax\nNearlyallMarkdownapplicationssupportthebasicsyntaxoutlinedinJohnGruber\u2019s\noriginal design document. There are minor variations and discrepancies between\nMarkdownprocessors\u2014thosearenotedinlinewhereverpossible.\nUsing Markdown doesn\u2019t mean that you can\u2019t also use HTML. You can\naddHTMLtagstoanyMarkdownfile.Thisishelpfulifyouprefercertain\nHTML tags to Markdown syntax. For example, some people find that it\u2019s\neasiertouseHTMLtagsforimages...."
+        }
+    ]
+}
