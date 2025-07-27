@@ -1,0 +1,23 @@
+{
+    "challenge_info": {
+        "challenge_id": "round_1b_test01",
+        "test_case_name": "markdown_syntax_test",
+        "description": "A test case to find specific information about Markdown syntax."
+    },
+    "documents": [
+        {
+            "filename": "gallery.pdf",
+            "title": "A Gallery of Images"
+        },
+        {
+            "filename": "markdown.pdf",
+            "title": "The Markdown Guide"
+        }
+    ],
+    "persona": {
+        "role": "Software Engineer"
+    },
+    "job_to_be_done": {
+        "task": "Find the syntax for creating a reference-style link."
+    }
+}
