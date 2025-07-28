@@ -6,17 +6,13 @@
             "reactionkinetics3.pdf",
             "reactionkinetics4.pdf",
             "reactionkinetics5.pdf",
-            "breport1.pdf",
-            "breport2.pdf",
             "breport3.pdf",
             "gnn1.pdf",
-            "gnn2.pdf",
-            "gnn3.pdf",
             "gnn4.pdf"
         ],
         "persona": "Undergraduate Chemistry Student",
         "job_to_be_done": "Identify key concepts and mechanisms for exam preparation on reaction kinetics",
-        "processing_timestamp": "2025-07-28T22:52:16.219044"
+        "processing_timestamp": "2025-07-28T23:27:23.691840"
     },
     "extracted_sections": [
         {
