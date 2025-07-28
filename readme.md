@@ -14,6 +14,27 @@ This project is a solution for Round 1B of the "Connecting the Dots" Hackathon. 
 ## 📁 File Structure
 
 For the script to run correctly, your project should be organized with the following folder structure:
+<Adobe 1B>/
+├── .gitignore
+├── input.json
+├── requirements.txt
+├── venv/
+└── mainlogic/
+    ├── local_minilm_model/
+    │   ├── 1_Pooling/
+    │   ├── model.safetensors
+    │   └── ... (and all other model files)
+    └── round_1b/
+        ├── main_1b.py
+        └── test_files/
+            ├── outlines/
+            │   ├── gallery_outline.json
+            │   ├── markdown_outline.json
+            │   └── ... (all other outline files)
+            └── pdfs/
+                ├── gallery.pdf
+                ├── markdown.pdf
+                └── ... (all other source PDFs)
 
 ## ⚙️ Setup Instructions
 
