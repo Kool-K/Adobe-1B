@@ -6,65 +6,65 @@
         ],
         "persona": "Software Engineer",
         "job_to_be_done": "Find the syntax for creating a reference-style link.",
-        "processing_timestamp": "2025-07-28T08:10:05.997623"
+        "processing_timestamp": "2025-07-28T01:53:37.574026"
     },
     "extracted_sections": [
         {
             "document": "markdown.pdf",
-            "section_title": "About the Author",
+            "section_title": "Formatting the First Part of the Link",
             "importance_rank": 1,
-            "page_number": 6
+            "page_number": 42
         },
         {
             "document": "markdown.pdf",
-            "section_title": "Automatic URL Linking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "section_title": "Formatting the Second Part of the Link",
             "importance_rank": 2,
-            "page_number": 6
+            "page_number": 42
         },
         {
             "document": "markdown.pdf",
-            "section_title": "Basic Syntax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "section_title": "Disabling Automatic URL Linking",
             "importance_rank": 3,
-            "page_number": 6
+            "page_number": 59
         },
         {
             "document": "markdown.pdf",
-            "section_title": "Cheat Sheet",
+            "section_title": "Linking to Heading IDs",
             "importance_rank": 4,
-            "page_number": 6
+            "page_number": 56
         },
         {
             "document": "markdown.pdf",
-            "section_title": "Definition Lists . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "section_title": "5. Cheat Sheet",
             "importance_rank": 5,
-            "page_number": 6
+            "page_number": 60
         }
     ],
     "subsection_analysis": [
         {
             "document": "markdown.pdf",
-            "refined_text": "CONTENTS\nFencedCodeBlocks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41\nSyntaxHighlighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42\nFootnotes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43\nHeadingIDs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45\nLinkingtoHeadingIDs . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nDefinitionLists . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nStrikethrough . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47\nTaskLists. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\nAutomaticURLLinking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\nDisablingAutomaticURLLinking. . . . . . . . . . . . . . . . . . . . . . 49\n5. CheatSheet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\nBasicSyntax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\nExtendedSyntax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51\nAbouttheAuthor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52",
-            "page_number": 6
+            "refined_text": "BasicSyntax 32\nFormattingtheFirstPartoftheLink\nThe first part of a reference-style link is formatted with two sets of brackets. The\nfirst set of brackets surrounds the text that should appear linked. The second set of\nbrackets displays a label used to point to the link you’re storing elsewhere in your\ndocument.\nAlthough not required, you can include a space between the first and second set of\nbrackets. Also, the label in the second set of brackets is not case sensitive and can\nincludeletters,numbers,spaces,orpunctuation.\nThis means the following example formats are all roughly equivalent for the first\npartofthelink:\n• [hobbit-hole][1]\n• [hobbit-hole] [1]\n• [hobbit-hole][a]\n• [hobbit-hole][A]\nFormattingtheSecondPartoftheLink\nThesecondpartofareference-stylelinkisformattedwiththefollowingattributes:\n1. The label, in brackets, followed immediately by a colon and at least one space\n(e.g.,[label]:).\n2. TheURLforthelink,whichyoucanoptionallyencloseinanglebrackets.\n3. The optional title for the link, which you can enclose in double quotes, single\nquotes,orparentheses.\nThismeansthefollowingexampleformatsareallroughlyequivalentforthesecond\npartofthelink:\n• [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle\n• [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle \"Hobbit\nlifestyles\"\n• [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit\nlifestyles'",
+            "page_number": 42
         },
         {
             "document": "markdown.pdf",
-            "refined_text": "CONTENTS\nFencedCodeBlocks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41\nSyntaxHighlighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42\nFootnotes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43\nHeadingIDs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45\nLinkingtoHeadingIDs . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nDefinitionLists . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nStrikethrough . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47\nTaskLists. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\nAutomaticURLLinking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\nDisablingAutomaticURLLinking. . . . . . . . . . . . . . . . . . . . . . 49\n5. CheatSheet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\nBasicSyntax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\nExtendedSyntax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51\nAbouttheAuthor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52",
-            "page_number": 6
+            "refined_text": "BasicSyntax 32\nFormattingtheFirstPartoftheLink\nThe first part of a reference-style link is formatted with two sets of brackets. The\nfirst set of brackets surrounds the text that should appear linked. The second set of\nbrackets displays a label used to point to the link you’re storing elsewhere in your\ndocument.\nAlthough not required, you can include a space between the first and second set of\nbrackets. Also, the label in the second set of brackets is not case sensitive and can\nincludeletters,numbers,spaces,orpunctuation.\nThis means the following example formats are all roughly equivalent for the first\npartofthelink:\n• [hobbit-hole][1]\n• [hobbit-hole] [1]\n• [hobbit-hole][a]\n• [hobbit-hole][A]\nFormattingtheSecondPartoftheLink\nThesecondpartofareference-stylelinkisformattedwiththefollowingattributes:\n1. The label, in brackets, followed immediately by a colon and at least one space\n(e.g.,[label]:).\n2. TheURLforthelink,whichyoucanoptionallyencloseinanglebrackets.\n3. The optional title for the link, which you can enclose in double quotes, single\nquotes,orparentheses.\nThismeansthefollowingexampleformatsareallroughlyequivalentforthesecond\npartofthelink:\n• [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle\n• [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle \"Hobbit\nlifestyles\"\n• [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit\nlifestyles'\nBasicSyntax 33\n• [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit\nlifestyles)\n• [hobbit-hole]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> \"Hobbit\nlifestyles\"\n• [hobbit-hole]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit\nlifestyles'\n• [hobbit-hole]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit\nlifestyles)\nYou can place this second part of the link anywhere in your Markdown document.\nSomepeopleplacethemimmediatelyaftertheparagraphinwhichtheyappearwhile\notherpeopleplacethemattheendofthedocument(likeendnotesorfootnotes).\nAnExamplePuttingthePartsTogether\nSay you add a URL as a standard URL link to a paragraph and it looks like this in\nMarkdown:\nMarkdown\n1 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet h\\\n2 ole, filled with the ends of worms and an oozy smell, nor yet a dry, ba\\\n3 re, sandy hole with nothing in it to sit down on or to eat: it was a [h\\\n4 obbit-hole](https://en.wikipedia.org/wiki/Hobbit#Lifestyle \"Hobbit life\\\n5 styles\"), and that means comfort.\nMarkdown\n1 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet h\\\n2 ole, filled with the ends of worms and an oozy smell, nor yet a dry, ba\\\n3 re, sandy hole with nothing in it to sit down on or to eat: it was a [h\\\n4 obbit-hole][1], and that means comfort.\n5\n6 [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> \"Hobbit lifestyle\\\n7 s\"\nInbothinstancesabove,theHTMLforthelinkwouldbeidentical:",
+            "page_number": 42
         },
         {
             "document": "markdown.pdf",
-            "refined_text": "CONTENTS\nFencedCodeBlocks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41\nSyntaxHighlighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42\nFootnotes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43\nHeadingIDs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45\nLinkingtoHeadingIDs . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nDefinitionLists . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nStrikethrough . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47\nTaskLists. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\nAutomaticURLLinking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\nDisablingAutomaticURLLinking. . . . . . . . . . . . . . . . . . . . . . 49\n5. CheatSheet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\nBasicSyntax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\nExtendedSyntax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51\nAbouttheAuthor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52",
-            "page_number": 6
+            "refined_text": "ExtendedSyntax 49\nHTML\n1 <a href=\"http://example.com\">http://example.com</a>\nTherenderedoutputlookslikethis:\nhttp://example.com\nDisablingAutomaticURLLinking\nIf you don’t want a URL to be automatically linked, you can remove the link by\ndenotingtheURLascodewithtickmarks.\nMarkdown\n1 `http://www.example.com`\nHTML\n1 <code>http://www.example.com</code>\nTherenderedoutputlookslikethis:\nhttp://www.example.com\n5. Cheat Sheet\nThis cheat sheet provides a quick overview of all the Markdown syntax elements.\nIt can’t cover every edge case! If you need more information about any of these\nelements,referbacktothechaptersonbasicandextendedsyntax.\nBasic Syntax\nThese are the elements outlined in John Gruber’s original design document. All\nMarkdownapplicationssupporttheseelements.\nElement MarkdownSyntax\nHeading # H1\n## H2\n### H3\nBold **bold text**\nItalic *italicized text*\nBlockquote > blockquote\nOrderedList 1. First item\n2. Second item\n3. Third item\nUnorderedList - First item\n- Second item\n- Third item\nCode `code`\nHorizontalRule ---\nLink [title](https://www.example.com)\nImage ![alt text](image.jpg)",
+            "page_number": 59
         },
         {
             "document": "markdown.pdf",
-            "refined_text": "CONTENTS\nFencedCodeBlocks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41\nSyntaxHighlighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42\nFootnotes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43\nHeadingIDs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45\nLinkingtoHeadingIDs . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nDefinitionLists . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nStrikethrough . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47\nTaskLists. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\nAutomaticURLLinking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\nDisablingAutomaticURLLinking. . . . . . . . . . . . . . . . . . . . . . 49\n5. CheatSheet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\nBasicSyntax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\nExtendedSyntax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51\nAbouttheAuthor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52",
-            "page_number": 6
+            "refined_text": "ExtendedSyntax 46\nLinkingtoHeadingIDs\nYoucanlinktoheadingswithcustomIDsinthefilebycreatingastandardlinkwith\nanumbersign(#)followedbythecustomheadingID.\nMarkdown\n1 [Heading IDs](#heading-ids)\nHTML\n1 <a href=\"#heading-ids\">Heading IDs</a>\nOther websites can link to the heading by adding the custom heading ID to the full\nURLofthewebpage(e.g,[Heading IDs](https:/www.eff.org/page#heading-ids)).\nDefinition Lists\nSome Markdown processors allow you to create definition lists of terms and their\ncorresponding definitions. To create a definition list, type the term on the first line.\nOnthenextline,typeacolonfollowedbyaspaceandthedefinition.\nMarkdown\n1 First Term\n2 : This is the definition of the first term.\n3\n4 Second Term\n5 : This is one definition of the second term.\n6 : This is another definition of the second term.\nExtendedSyntax 47\nHTML\n1 <dl>\n2 <dt>First Term</dt>\n3 <dd>This is the definition of the first term.</dd>\n4 <dt>Second Term</dt>\n5 <dd>This is one definition of the second term. </dd>\n6 <dd>This is another definition of the second term.</dd>\n7 </dl>\nTherenderedoutputlookslikethis:\nFirstTerm\nThisisthedefinitionofthefirstterm.\nSecondTerm\nThisisonedefinitionofthesecondterm.\nThisisanotherdefinitionofthesecondterm.\nStrikethrough\nYou can “strikethrough” words by putting a horizontal line through the center of\nthem.Thisfeatureallowsyoutoindicatethatcertainwordsareamistakenotmeant\nfor inclusion in the document. To strikethrough words, use two tilde symbols ((cid:24)(cid:24))\nbeforeandafterthewords.\nMarkdown\n1 The world is ~~flat~~ round.\nHTML\n1 <p>The world is <del>flat</del> round.</p>\nTherenderedoutputlookslikethis:\nTheworldisflatround.",
+            "page_number": 56
         },
         {
             "document": "markdown.pdf",
-            "refined_text": "CONTENTS\nFencedCodeBlocks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41\nSyntaxHighlighting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42\nFootnotes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43\nHeadingIDs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45\nLinkingtoHeadingIDs . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nDefinitionLists . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46\nStrikethrough . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47\nTaskLists. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\nAutomaticURLLinking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48\nDisablingAutomaticURLLinking. . . . . . . . . . . . . . . . . . . . . . 49\n5. CheatSheet . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\nBasicSyntax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50\nExtendedSyntax . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51\nAbouttheAuthor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52",
-            "page_number": 6
+            "refined_text": "This cheat sheet provides a quick overview of all the Markdown syntax elements.\nIt can’t cover every edge case! If you need more information about any of these\nelements,referbacktothechaptersonbasicandextendedsyntax.\nBasic Syntax\nThese are the elements outlined in John Gruber’s original design document. All\nMarkdownapplicationssupporttheseelements.\nElement MarkdownSyntax\nHeading # H1\n## H2\n### H3\nBold **bold text**\nItalic *italicized text*\nBlockquote > blockquote\nOrderedList 1. First item\n2. Second item\n3. Third item\nUnorderedList - First item\n- Second item\n- Third item\nCode `code`\nHorizontalRule ---\nLink [title](https://www.example.com)\nImage ![alt text](image.jpg)",
+            "page_number": 60
         }
     ]
 }
