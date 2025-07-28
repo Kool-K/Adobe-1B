@@ -14,3 +14,62 @@ This project is a solution for Round 1B of the "Connecting the Dots" Hackathon. 
 ## 📁 File Structure
 
 For the script to run correctly, your project should be organized with the following folder structure:
+
+## ⚙️ Setup Instructions
+
+To set up and run this project, follow these steps:
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone <your_repository_url>
+    cd <repository_name>
+    ```
+
+2.  **Create and Activate Virtual Environment:**
+    ```bash
+    # Create the environment
+    python -m venv venv
+
+    # Activate on Windows
+    .\venv\Scripts\activate
+
+    # Activate on Mac/Linux
+    source venv/bin/activate
+    ```
+
+3.  **Install Dependencies:**
+    All required Python libraries are listed in `requirements.txt`. Install them with:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## ▶️ How to Run
+
+The script is executed from the command line and takes the path to a master input JSON file as its only argument.
+
+1.  **Prepare Inputs:**
+    * Place all the required PDF documents into the `source_pdfs/` folder.
+    * Place their corresponding JSON outlines (from Round 1A) into the `labeled_json_original/` folder. Ensure the outline file names match the PDF names (e.g., `mydoc.pdf` and `mydoc_labels.json`).
+    * Create a master `input.json` file in the root directory that lists the documents to be processed, the persona, and the job-to-be-done.
+
+2.  **Execute the Script:**
+    Run the script from the root project directory, passing the path to your master input file:
+    ```bash
+    python mainlogic/round_1b/main_1b.py input.json
+    ```
+
+## 📝 Input and Output Format
+
+### Input (`input.json`)
+
+The script expects a single master JSON file as input, which defines the entire task.
+
+* **`documents`**: A list of objects, where each object specifies the `filename` of a PDF to be processed.
+* **`persona`**: An object containing the `role` of the user.
+* **`job_to-be_done`**: An object containing the `task` the user wants to accomplish.
+
+*(You can include the sample `input.json` we created here as an example).*
+
+### Output (`1b_final_output.json`)
+
+The script will generate a single output file named `1b_final_output.json` in the root directory. This file contains the ranked list of extracted sections and subsections that are most relevant to the input query, formatted according to the official hackathon specifications.
