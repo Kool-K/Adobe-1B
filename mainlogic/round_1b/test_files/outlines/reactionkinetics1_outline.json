@@ -1,0 +1,58 @@
+[
+    {
+        "text": "CHAPTER 14 CHEMICAL KINETICS",
+        "features": [],
+        "label": 1,
+        "label_type": "TITLE",
+        "page": 1
+    },
+    {
+        "text": "14.1 Factors That Affect Reaction Rates",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 2
+    },
+    {
+        "text": "14.2 Reaction Rates",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 4
+    },
+    {
+        "text": "14.3 Concentration and Rate Laws",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 9
+    },
+    {
+        "text": "14.4 The Change of Concentration with Time",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 15
+    },
+    {
+        "text": "14.5 Temperature and Rate",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 24
+    },
+    {
+        "text": "14.6 Reaction Mechanisms",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 31
+    },
+    {
+        "text": "14.7 Catalysis",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 39
+    }
+]

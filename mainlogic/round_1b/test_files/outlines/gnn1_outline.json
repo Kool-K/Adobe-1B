@@ -1,0 +1,100 @@
+[
+    {
+        "text": "A Comprehensive Survey on Graph Neural Networks",
+        "features": [],
+        "label": 1,
+        "label_type": "TITLE",
+        "page": 1
+    },
+    {
+        "text": "ABSTRACT",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 1
+    },
+    {
+        "text": "I. INTRODUCTION",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 1
+    },
+    {
+        "text": "II. BACKGROUND AND DEFINITION",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 2
+    },
+    {
+        "text": "A. Background",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 2
+    },
+    {
+        "text": "B. Definition",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 3
+    },
+    {
+        "text": "III. TAXONOMY AND FRAMEWORKS",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 4
+    },
+    {
+        "text": "A. Taxonomy of Graph Neural Networks",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 4
+    },
+    {
+        "text": "B. Frameworks",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 11
+    },
+    {
+        "text": "IV. APPLICATIONS",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 12
+    },
+    {
+        "text": "V. FUTURE DIRECTIONS",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 15
+    },
+    {
+        "text": "VI. CONCLUSION",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 16
+    },
+    {
+        "text": "ACKNOWLEDGMENT",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 16
+    },
+    {
+        "text": "REFERENCES",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 16
+    }
+]

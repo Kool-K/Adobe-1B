@@ -1,0 +1,65 @@
+[
+    {
+        "text": "CHAPTER 12 KINETICS OF PARTICLES: NEWTON'S SECOND LAW",
+        "features": [],
+        "label": 1,
+        "label_type": "TITLE",
+        "page": 1
+    },
+    {
+        "text": "Chapter Objectives",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 1
+    },
+    {
+        "text": "12.1 Newton's Second Law of Motion",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 2
+    },
+    {
+        "text": "12.2 The Equation of Motion",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 4
+    },
+    {
+        "text": "12.3 Equation of Motion for a System of Particles",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 6
+    },
+    {
+        "text": "12.4 Equations of Motion: Rectangular Coordinates",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 8
+    },
+    {
+        "text": "12.5 Equations of Motion: Normal and Tangential Coordinates",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 26
+    },
+    {
+        "text": "12.6 Equations of Motion: Cylindrical Coordinates",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 44
+    },
+    {
+        "text": "12.7 Central-Force Motion and Space Mechanics",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 60
+    }
+]

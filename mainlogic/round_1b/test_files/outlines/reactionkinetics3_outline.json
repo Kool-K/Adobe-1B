@@ -1,0 +1,58 @@
+[
+    {
+        "text": "Chemical Kinetics",
+        "features": [],
+        "label": 1,
+        "label_type": "TITLE",
+        "page": 1
+    },
+    {
+        "text": "13.1 Reaction Rates",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 1
+    },
+    {
+        "text": "13.2 Rate Laws",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 6
+    },
+    {
+        "text": "13.3 Determining the Form of the Rate Law",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 7
+    },
+    {
+        "text": "13.4 The Integrated Rate Law",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 11
+    },
+    {
+        "text": "13.5 Reaction Mechanisms",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 21
+    },
+    {
+        "text": "13.6 A Model for Chemical Kinetics",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 27
+    },
+    {
+        "text": "13.7 Catalysis",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 32
+    }
+]

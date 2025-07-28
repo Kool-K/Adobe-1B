@@ -1,0 +1,58 @@
+[
+    {
+        "text": "Graph Neural Networks: A Review of Methods and Applications",
+        "features": [],
+        "label": 1,
+        "label_type": "TITLE",
+        "page": 1
+    },
+    {
+        "text": "Abstract",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 1
+    },
+    {
+        "text": "1 Introduction",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 2
+    },
+    {
+        "text": "2 Background and Foundations",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 3
+    },
+    {
+        "text": "3 Methods",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 5
+    },
+    {
+        "text": "4 Applications",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 11
+    },
+    {
+        "text": "5 Conclusion and Future Work",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 14
+    },
+    {
+        "text": "References",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 15
+    }
+]

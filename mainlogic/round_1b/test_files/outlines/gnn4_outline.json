@@ -1,0 +1,72 @@
+[
+    {
+        "text": "Graph Neural Networks for Drug Discovery and Development",
+        "features": [],
+        "label": 1,
+        "label_type": "TITLE",
+        "page": 1
+    },
+    {
+        "text": "Abstract",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 1
+    },
+    {
+        "text": "Introduction",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 2
+    },
+    {
+        "text": "Graph representation in drug discovery",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 3
+    },
+    {
+        "text": "Graph neural network architectures",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 5
+    },
+    {
+        "text": "GNN applications in drug discovery",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 9
+    },
+    {
+        "text": "Challenges and future directions",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 14
+    },
+    {
+        "text": "Conclusion",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 16
+    },
+    {
+        "text": "Declaration of competing interests",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 16
+    },
+    {
+        "text": "References",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 17
+    }
+]

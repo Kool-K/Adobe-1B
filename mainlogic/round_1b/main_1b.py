@@ -45,8 +45,11 @@ def main():
     job = data["job_to_be_done"]
     user_query = f"As a {persona['role']}, I need to {job['task']}."
 
-    PDF_DIR = "mainlogic/round_1b/test_files/pdfs"
-    OUTLINE_DIR = "mainlogic/round_1b/test_files/outlines"
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    PDF_DIR = os.path.join(BASE_DIR, "test_files", "pdfs")
+    OUTLINE_DIR = os.path.join(BASE_DIR, "test_files", "outlines")
+
+
     MODEL_PATH = "./mainlogic/local_minilm_model"
 
     model = SentenceTransformer(MODEL_PATH)
@@ -55,10 +58,10 @@ def main():
     for doc in data["documents"]:
         pdf_name = doc["filename"]
         outline_name = pdf_name.replace(".pdf", "_outline.json")
-
+        print(pdf_name,1)
         pdf_path = os.path.join(PDF_DIR, pdf_name)
         outline_path = os.path.join(OUTLINE_DIR, outline_name)
-
+        print(pdf_path)
         if not os.path.exists(pdf_path) or not os.path.exists(outline_path):
             print(f"⚠️ Skipping missing: {pdf_name}")
             continue

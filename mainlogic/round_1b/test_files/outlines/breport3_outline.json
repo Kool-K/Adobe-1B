@@ -1,0 +1,114 @@
+[
+    {
+        "text": "2023 ANNUAL REPORT",
+        "features": [],
+        "label": 1,
+        "label_type": "TITLE",
+        "page": 1
+    },
+    {
+        "text": "Dear fellow stockholder:",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 3
+    },
+    {
+        "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 6
+    },
+    {
+        "text": "PART I",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 10
+    },
+    {
+        "text": "Item 1. Business",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 10
+    },
+    {
+        "text": "Item 1A. Risk Factors",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 14
+    },
+    {
+        "text": "Item 1B. Unresolved Staff Comments",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 28
+    },
+    {
+        "text": "Item 2. Properties",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 28
+    },
+    {
+        "text": "Item 3. Legal Proceedings",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 28
+    },
+    {
+        "text": "Item 4. Mine Safety Disclosures",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 28
+    },
+    {
+        "text": "PART II",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 29
+    },
+    {
+        "text": "Item 5. Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 29
+    },
+    {
+        "text": "Item 6. [Reserved]",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 31
+    },
+    {
+        "text": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 32
+    },
+    {
+        "text": "Item 7A. Quantitative and Qualitative Disclosures About Market Risk",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 47
+    },
+    {
+        "text": "Item 8. Financial Statements and Supplementary Data",
+        "features": [],
+        "label": 3,
+        "label_type": "H2",
+        "page": 49
+    }
+]

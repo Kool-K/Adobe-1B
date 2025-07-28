@@ -1,0 +1,58 @@
+[
+    {
+        "text": "Unit 11: Chemical Kinetics",
+        "features": [],
+        "label": 1,
+        "label_type": "TITLE",
+        "page": 1
+    },
+    {
+        "text": "Introduction",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 1
+    },
+    {
+        "text": "11.1 Reaction rate",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 2
+    },
+    {
+        "text": "11.2 Factors influencing rate of reaction",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 5
+    },
+    {
+        "text": "11.3 Integrated rate equations and half-life of a reaction",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 9
+    },
+    {
+        "text": "11.4 Pseudo first order reaction",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 16
+    },
+    {
+        "text": "11.5 Collision theory",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 17
+    },
+    {
+        "text": "11.6 Effect of catalyst",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 20
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "text": "Chemical Kinetics: The Rates of Chemical Reactions",
+        "features": [],
+        "label": 1,
+        "label_type": "TITLE",
+        "page": 1
+    },
+    {
+        "text": "16.1 The Rate of a Chemical Reaction",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 1
+    },
+    {
+        "text": "16.2 Measuring Reaction Rates",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 4
+    },
+    {
+        "text": "16.3 The Rate Law",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 5
+    },
+    {
+        "text": "16.4 The Integrated Rate Law: The Dependence of Concentration on Time",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 9
+    },
+    {
+        "text": "16.5 The Effect of Temperature on Reaction Rate",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 15
+    },
+    {
+        "text": "16.6 Reaction Mechanisms",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 19
+    },
+    {
+        "text": "16.7 Catalysis",
+        "features": [],
+        "label": 2,
+        "label_type": "H1",
+        "page": 23
+    }
+]

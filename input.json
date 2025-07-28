@@ -1,23 +1,63 @@
 {
     "challenge_info": {
-        "challenge_id": "round_1b_test01",
-        "test_case_name": "markdown_syntax_test",
-        "description": "A test case to find specific information about Markdown syntax."
+        "challenge_id": "round_1b_test03",
+        "test_case_name": "chemistry_exam_prep",
+        "description": "Educational content extraction for chemistry."
     },
     "documents": [
         {
-            "filename": "gallery.pdf",
-            "title": "Grand Opening of 'Aperture Gallery'"
+            "filename": "reactionkinetics1.pdf",
+            "title": "CHAPTER 14 CHEMICAL KINETICS"
         },
         {
-            "filename": "markdown.pdf",
-            "title": "The Markdown Guide"
+            "filename": "reactionkinetics2.pdf",
+            "title": "Chemical Kinetics: The Rates of Chemical Reactions"
+        },
+        {
+            "filename": "reactionkinetics3.pdf",
+            "title": "Chemical Kinetics"
+        },
+        {
+            "filename": "reactionkinetics4.pdf",
+            "title": "Unit 11: Chemical Kinetics"
+        },
+        {
+            "filename": "reactionkinetics5.pdf",
+            "title": "CHAPTER 12 KINETICS OF PARTICLES: NEWTON'S SECOND LAW"
+        },
+        {
+            "filename": "breport1.pdf",
+            "title": "Huawei Investment & Holding Co., Ltd. 2023 Annual Report"
+        },
+        {
+            "filename": "breport2.pdf",
+            "title": "Cognizant 2023 Annual Report"
+        },
+        {
+            "filename": "breport3.pdf",
+            "title": "Insight 2023 Annual Report"
+        },
+        {
+            "filename": "gnn1.pdf",
+            "title": "A Comprehensive Survey on Graph Neural Networks"
+        },
+        {
+            "filename": "gnn2.pdf",
+            "title": "Graph Neural Networks: A Review of Methods and Applications"
+        },
+        {
+            "filename": "gnn3.pdf",
+            "title": "Demystifying Deep Graph Neural Networks"
+        },
+        {
+            "filename": "gnn4.pdf",
+            "title": "Graph Neural Networks for Drug Discovery and Development"
         }
     ],
     "persona": {
-        "role": "Software Engineer"
+        "role": "Undergraduate Chemistry Student"
     },
     "job_to_be_done": {
-        "task": "Find the syntax for creating a reference-style link."
+        "task": "Identify key concepts and mechanisms for exam preparation on reaction kinetics"
     }
 }
